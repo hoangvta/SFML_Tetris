@@ -2,25 +2,17 @@
 
 preloader::preloader()
 {
-	loadFromString("buttonTexture");
-
-	loadFromString("blockTexture");
-
-	loadFromString("I_texture");
-	loadFromString("S_texture");
-	loadFromString("Z_texture");
-	loadFromString("J_texture");
-	loadFromString("L_texture");
-	loadFromString("O_texture");
-	loadFromString("T_texture");
+	load()
 }
 
 preloader::~preloader()
 {
-	for (auto item : floorTypeTextures) {
+	for (auto item : loadedTextures) {
 		delete item.second;
 	}
-	floorTypeTextures.clear();
+	loadedTextures.clear();
+
+	save();
 }
 
 void preloader::save()
@@ -29,15 +21,20 @@ void preloader::save()
 
 void preloader::load()
 {
+
+	loadFromString("buttonTexture");
+
+	loadFromString("blockTexture");
+
 }
 
 void preloader::loadFromString(sf::String fileName)
 {
 	sf::Texture* tmpTexture = new sf::Texture();
 	tmpTexture->loadFromFile("image/" + fileName + ".png");
-	floorTypeTextures[fileName] = tmpTexture;
+	loadedTextures[fileName] = tmpTexture;
 }
 
 sf::Texture* preloader::getTexture(std::string key) {
-	return floorTypeTextures.at(key);
+	return loadedTextures.at(key);
 }

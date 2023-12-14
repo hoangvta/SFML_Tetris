@@ -2,8 +2,6 @@
 #define H_APPLICATION_EVENT
 
 #include "SFML/Window/Event.hpp"
-#include "SFML/Window/Mouse.hpp"
-#include "SFML/Window/Keyboard.hpp"
 #include "SFML/Graphics/Font.hpp"
 
 #include "ApplicationWindow.h"

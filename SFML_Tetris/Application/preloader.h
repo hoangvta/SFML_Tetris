@@ -28,7 +28,7 @@ public:
 	sf::Texture* getTexture(std::string key);
 
 private:
-	std::map<std::string, sf::Texture*> floorTypeTextures;
+	std::map<std::string, sf::Texture*> loadedTextures;
 };
 
 #endif
