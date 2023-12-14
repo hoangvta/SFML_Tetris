@@ -8,7 +8,7 @@
 #include "ApplicationEvent.h"
 #include "ApplicationWindow.h"
 
-#include "../Stage/MenuStage.h"
+#include "MenuStage.h"
 
 class Application
 {

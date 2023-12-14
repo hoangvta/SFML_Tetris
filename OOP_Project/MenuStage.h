@@ -1,12 +1,14 @@
 #ifndef H_MENUSTAGE
 #define H_MENUSTAGE
 
-#include "../Application/preloader.h"
+#include <conio.h>
 
 #include "Stage.h"
 #include "GameStage.h"
 #include "HowToPlayStage.h"
-#include "../GameObject/Button.h"
+#include "Button.h"
+
+#include "preloader.h"
 
 class MenuStage : public Stage
 {

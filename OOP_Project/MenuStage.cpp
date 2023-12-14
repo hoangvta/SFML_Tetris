@@ -23,7 +23,7 @@ void MenuStage::update()
 			setNextStage(new GameStage());
 		}
 		if (buttonList[1].onClick()) {
-			setNextStage(new HowToPlayStage());
+
 		}
 		if (buttonList[2].onClick()) {
 			stop();

@@ -1,12 +1,12 @@
 #ifndef H_INTERACTABLE_OBJECT
 #define H_INTERACTABLE_OBJECT
 
-#include "../Application/preloader.h"
+#include "preloader.h"
 
 #include "SFML/Graphics.hpp"
 
-#include "../Application/ApplicationWindow.h"
-#include "../Application/ApplicationEvent.h"
+#include "ApplicationWindow.h"
+#include "ApplicationEvent.h"
 
 class InteractableObject
 {

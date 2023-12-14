@@ -7,7 +7,7 @@ class ApplicationWindow
 {
 public:
 	static sf::RenderWindow& getWindow() {
-		static sf::RenderWindow s_window(sf::VideoMode(800, 600), "The Tetris", sf::Style::Titlebar | sf::Style::Close);
+		static sf::RenderWindow s_window(sf::VideoMode(800, 600), "haha");
 		return s_window;
 	}
 private:

@@ -133,37 +133,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Application\Application.cpp" />
-    <ClCompile Include="Application\ApplicationEvent.cpp" />
-    <ClCompile Include="Application\ApplicationWindow.cpp" />
-    <ClCompile Include="Application\preloader.cpp" />
-    <ClCompile Include="GameObject\Block.cpp" />
-    <ClCompile Include="GameObject\Button.cpp" />
-    <ClCompile Include="GameObject\GameBoard.cpp" />
-    <ClCompile Include="GameObject\InteractableObject.cpp" />
-    <ClCompile Include="GameObject\Piece.cpp" />
-    <ClCompile Include="GameObject\Text.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="ApplicationEvent.cpp" />
+    <ClCompile Include="ApplicationWindow.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="GameBoard.cpp" />
+    <ClCompile Include="GameStage.cpp" />
+    <ClCompile Include="HowToPlayStage.cpp" />
+    <ClCompile Include="InteractableObject.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Stage\GameStage.cpp" />
-    <ClCompile Include="Stage\HowToPlayStage.cpp" />
-    <ClCompile Include="Stage\MenuStage.cpp" />
-    <ClCompile Include="Stage\Stage.cpp" />
+    <ClCompile Include="MenuStage.cpp" />
+    <ClCompile Include="Piece.cpp" />
+    <ClCompile Include="preloader.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="Text.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Application\Application.h" />
-    <ClInclude Include="Application\ApplicationEvent.h" />
-    <ClInclude Include="Application\ApplicationWindow.h" />
-    <ClInclude Include="Application\preloader.h" />
-    <ClInclude Include="GameObject\Block.h" />
-    <ClInclude Include="GameObject\Button.h" />
-    <ClInclude Include="GameObject\GameBoard.h" />
-    <ClInclude Include="GameObject\InteractableObject.h" />
-    <ClInclude Include="GameObject\Piece.h" />
-    <ClInclude Include="GameObject\Text.h" />
-    <ClInclude Include="Stage\GameStage.h" />
-    <ClInclude Include="Stage\HowToPlayStage.h" />
-    <ClInclude Include="Stage\MenuStage.h" />
-    <ClInclude Include="Stage\Stage.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="ApplicationEvent.h" />
+    <ClInclude Include="ApplicationWindow.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="GameBoard.h" />
+    <ClInclude Include="GameStage.h" />
+    <ClInclude Include="HowToPlayStage.h" />
+    <ClInclude Include="InteractableObject.h" />
+    <ClInclude Include="MenuStage.h" />
+    <ClInclude Include="Piece.h" />
+    <ClInclude Include="preloader.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="Text.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

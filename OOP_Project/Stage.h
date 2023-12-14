@@ -1,7 +1,7 @@
 #ifndef H_STAGE
 #define H_STAGE
 
-#include "../Application/ApplicationEvent.h"
+#include "ApplicationEvent.h"
 
 class Stage abstract
 {
