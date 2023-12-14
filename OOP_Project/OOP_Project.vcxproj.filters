@@ -36,91 +36,91 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ApplicationWindow.cpp">
+    <ClCompile Include="Application\Application.cpp">
       <Filter>Source Files\ApplicationLogic</Filter>
     </ClCompile>
-    <ClCompile Include="Application.cpp">
+    <ClCompile Include="Application\ApplicationEvent.cpp">
       <Filter>Source Files\ApplicationLogic</Filter>
     </ClCompile>
-    <ClCompile Include="ApplicationEvent.cpp">
+    <ClCompile Include="Application\ApplicationWindow.cpp">
       <Filter>Source Files\ApplicationLogic</Filter>
     </ClCompile>
-    <ClCompile Include="GameStage.cpp">
+    <ClCompile Include="Application\preloader.cpp">
+      <Filter>Source Files\ApplicationLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Button.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GameBoard.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Piece.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\InteractableObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Block.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\MenuStage.cpp">
       <Filter>Source Files\ScreenStage</Filter>
     </ClCompile>
-    <ClCompile Include="MenuStage.cpp">
+    <ClCompile Include="Stage\GameStage.cpp">
       <Filter>Source Files\ScreenStage</Filter>
     </ClCompile>
-    <ClCompile Include="Stage.cpp">
+    <ClCompile Include="Stage\Stage.cpp">
       <Filter>Source Files\ScreenStage</Filter>
     </ClCompile>
-    <ClCompile Include="preloader.cpp">
-      <Filter>Source Files\ApplicationLogic</Filter>
-    </ClCompile>
-    <ClCompile Include="InteractableObject.cpp">
+    <ClCompile Include="GameObject\Text.cpp">
       <Filter>Source Files\GameObject</Filter>
     </ClCompile>
-    <ClCompile Include="Block.cpp">
-      <Filter>Source Files\GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Button.cpp">
-      <Filter>Source Files\GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="GameBoard.cpp">
-      <Filter>Source Files\GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Piece.cpp">
-      <Filter>Source Files\GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Text.cpp">
-      <Filter>Source Files\GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="HowToPlayStage.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Stage\HowToPlayStage.cpp">
+      <Filter>Source Files\ScreenStage</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ApplicationWindow.h">
+    <ClInclude Include="Application\Application.h">
       <Filter>Header Files\ApplicationLogic</Filter>
     </ClInclude>
-    <ClInclude Include="Application.h">
+    <ClInclude Include="Application\ApplicationEvent.h">
       <Filter>Header Files\ApplicationLogic</Filter>
     </ClInclude>
-    <ClInclude Include="ApplicationEvent.h">
+    <ClInclude Include="Application\ApplicationWindow.h">
       <Filter>Header Files\ApplicationLogic</Filter>
     </ClInclude>
-    <ClInclude Include="MenuStage.h">
+    <ClInclude Include="Application\preloader.h">
+      <Filter>Header Files\ApplicationLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GameBoard.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Button.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\InteractableObject.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Piece.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Block.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\MenuStage.h">
       <Filter>Header Files\ScreenStage</Filter>
     </ClInclude>
-    <ClInclude Include="GameStage.h">
+    <ClInclude Include="Stage\GameStage.h">
       <Filter>Header Files\ScreenStage</Filter>
     </ClInclude>
-    <ClInclude Include="Stage.h">
+    <ClInclude Include="Stage\HowToPlayStage.h">
       <Filter>Header Files\ScreenStage</Filter>
     </ClInclude>
-    <ClInclude Include="Block.h">
+    <ClInclude Include="Stage\Stage.h">
+      <Filter>Header Files\ScreenStage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Text.h">
       <Filter>Header Files\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Button.h">
-      <Filter>Header Files\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="GameBoard.h">
-      <Filter>Header Files\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="InteractableObject.h">
-      <Filter>Header Files\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="preloader.h">
-      <Filter>Header Files\ApplicationLogic</Filter>
-    </ClInclude>
-    <ClInclude Include="Piece.h">
-      <Filter>Header Files\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Text.h">
-      <Filter>Header Files\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="HowToPlayStage.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

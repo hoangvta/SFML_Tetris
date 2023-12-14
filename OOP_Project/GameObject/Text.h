@@ -3,8 +3,8 @@
 
 #include "SFML/Graphics/Text.hpp"
 
-#include "ApplicationEvent.h"
-#include "ApplicationWindow.h"
+#include "../Application/ApplicationEvent.h"
+#include "../Application/ApplicationWindow.h"
 
 class Text : public sf::Text 
 {
