@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP_Project", "OOP_Project\OOP_Project.vcxproj", "{5ECD3A54-FF84-4E56-B9C5-6FA9074B8AA4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFML_Tetris", "SFML_Tetris\SFML_Tetris.vcxproj", "{5ECD3A54-FF84-4E56-B9C5-6FA9074B8AA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {25221806-2B05-477E-810F-4E396148D40B}
+		SolutionGuid = {63D1FFD2-0D4F-4E2B-85AF-FD4B2E0E80A9}
 	EndGlobalSection
 EndGlobal
