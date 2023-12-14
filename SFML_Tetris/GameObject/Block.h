@@ -1,7 +1,7 @@
 #ifndef H_BLOCK
 #define H_BLOCK
 
-#include "preloader.h"
+#include "../Application/preloader.h"
 #include "InteractableObject.h"
 
 class Block : public InteractableObject

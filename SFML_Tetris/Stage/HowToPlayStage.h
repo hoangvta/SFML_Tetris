@@ -2,7 +2,8 @@
 #define H_HOW_TO_PLAY
 
 #include "Stage.h"
-#include "Text.h"
+
+#include "../GameObject/Text.h"
 
 class HowToPlayStage : public Stage
 {
@@ -12,7 +13,7 @@ public:
 	void update() override;
 	void draw() override;
 private:
-
+	Text stageText;
 };
 
 #endif

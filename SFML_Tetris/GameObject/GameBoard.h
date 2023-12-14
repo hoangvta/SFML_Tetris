@@ -1,8 +1,8 @@
 #ifndef H_GAMEBOARD
 #define H_GAMEBOARD
 
-#include "preloader.h"
-#include "ApplicationEvent.h"
+#include "../Application/preloader.h"
+#include "../Application/ApplicationEvent.h"
 
 #include "InteractableObject.h"
 #include "Piece.h"
