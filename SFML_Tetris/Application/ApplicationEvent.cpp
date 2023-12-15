@@ -81,5 +81,6 @@ void ApplicationEvent::updateTime()
 
 int ApplicationEvent::getRandomInt()
 {
+    srand(time(NULL));
     return rand();
 }

@@ -15,7 +15,6 @@ public:
 
 	static ApplicationEvent& getEvent() {
 		static ApplicationEvent s_event;
-		srand(time(NULL));
 		return s_event;
 	}
 

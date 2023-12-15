@@ -5,6 +5,14 @@ Application::Application()
 	init();
 }
 
+Application::~Application()
+{
+	while (!stageList.empty()) {
+		delete stageList.top();
+		stageList.pop();
+	}
+}
+
 void Application::init()
 {
 	stageList.push(new MenuStage());
