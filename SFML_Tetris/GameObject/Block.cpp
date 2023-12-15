@@ -15,9 +15,6 @@ void Block::update()
 	setPos(this->getPos() + sf::Vector2i(0, 24));
 }
 
-void Block::rotate(bool clockWise)
-{
-}
 
 bool Block::collise(Block& other, bool down)
 {

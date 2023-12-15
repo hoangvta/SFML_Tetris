@@ -12,8 +12,6 @@ public:
 
 	void update() override;
 
-	void rotate(bool clockWise);
-
 	bool collise(Block& other, bool down);
 
 private:
