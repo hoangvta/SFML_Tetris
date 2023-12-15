@@ -27,11 +27,11 @@ public:
 	
 	void draw();
 private:
-	bool gameOver;
-	int lineClear;
-
 	void setupEdge();
 	void setupRandomPieces();
+
+	bool gameOver;
+	int lineClear;
 
 	Piece* curPiece;
 	sf::Vector2u boardSize;
