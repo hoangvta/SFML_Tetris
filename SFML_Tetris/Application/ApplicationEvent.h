@@ -28,14 +28,10 @@ public:
 
 	void update();
 
-	sf::Font& getFont();
-
 	const float& getDeltaTime();
 	void updateTime();
 
-	int getRandomInt() {
-		return rand();
-	}
+	int getRandomInt();
 
 	enum class ButtonState {
 		UNTOUCH = 0,
@@ -50,7 +46,6 @@ private:
 	
 	sf::Vector2i mousePos;
 	ButtonState mouseClickList[sf::Mouse::Button::ButtonCount] = {};
-	sf::Font font;
 };
 
 #endif

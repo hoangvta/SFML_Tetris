@@ -25,10 +25,13 @@ public:
 
 	void loadFromString(sf::String fileName);
 
+	sf::Font& getFont();
+
 	sf::Texture* getTexture(std::string key);
 
 private:
 	std::map<std::string, sf::Texture*> loadedTextures;
+	sf::Font font;
 };
 
 #endif

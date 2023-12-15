@@ -2,7 +2,7 @@
 
 Text::Text()
 {
-	setFont(ApplicationEvent::getEvent().getFont());
+	setFont(preloader::getLoader().getFont());
 	setCharacterSize(12);
 	setFillColor(sf::Color::White);
 }

@@ -35,6 +35,18 @@ void preloader::loadFromString(sf::String fileName)
 	loadedTextures[fileName] = tmpTexture;
 }
 
+sf::Font& preloader::getFont()
+{
+	static bool done = false;
+	if (done) {
+		return font;
+	}
+	font.loadFromFile("font/font.ttf");
+	done = true;
+	return getFont();
+}
+
+
 sf::Texture* preloader::getTexture(std::string key) {
 	return loadedTextures.at(key);
 }

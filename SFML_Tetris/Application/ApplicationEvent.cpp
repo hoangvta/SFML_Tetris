@@ -67,17 +67,6 @@ void ApplicationEvent::update()
     updateTime();
 }
 
-sf::Font& ApplicationEvent::getFont()
-{
-    static bool done = false;
-    if (done) {
-        return font;
-    }
-    font.loadFromFile("font/font.ttf");
-    done = true;
-    return getFont();
-}
-
 const float& ApplicationEvent::getDeltaTime()
 {
     return deltaTime;
@@ -88,4 +77,9 @@ void ApplicationEvent::updateTime()
     static sf::Clock windowClock;
 
     deltaTime = windowClock.restart().asSeconds();
+}
+
+int ApplicationEvent::getRandomInt()
+{
+    return rand();
 }

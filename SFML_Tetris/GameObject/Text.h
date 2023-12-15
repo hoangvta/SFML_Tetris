@@ -3,7 +3,7 @@
 
 #include "SFML/Graphics/Text.hpp"
 
-#include "../Application/ApplicationEvent.h"
+#include "../Application/preloader.h"
 #include "../Application/ApplicationWindow.h"
 
 class Text : public sf::Text 
