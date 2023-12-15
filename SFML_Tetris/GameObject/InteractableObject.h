@@ -8,7 +8,7 @@
 #include "../Application/ApplicationWindow.h"
 #include "../Application/ApplicationEvent.h"
 
-class InteractableObject
+class InteractableObject abstract
 {
 public:
 
