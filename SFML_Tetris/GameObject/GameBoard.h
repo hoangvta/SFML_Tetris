@@ -19,7 +19,7 @@ public:
 
 	void spawnNewPiece();
 	bool collisionCheck(bool down = false);
-	bool checkClearLine();
+	void clearLine();
 	bool isGameOver();
 
 	void updatePiece();

@@ -84,7 +84,7 @@ bool GameBoard::collisionCheck(bool down)
 	return false;
 }
 
-bool GameBoard::checkClearLine()
+void GameBoard::clearLine()
 {
 	std::sort(droped.begin(), droped.end(), [&] (Block* a, Block* b) {
 		return a->getPos().y > b->getPos().y;
@@ -126,7 +126,6 @@ bool GameBoard::checkClearLine()
 		}
 		lineToClear.pop_back();
 	}
-	return false;
 }
 
 bool GameBoard::isGameOver()
@@ -178,7 +177,7 @@ void GameBoard::update()
 		if (updateTime >= updateInteval) {
 			curPiece->pushBlockToVector(droped);
 			spawnNewPiece();
-			checkClearLine();
+			clearLine();
 			updateTime = 0;
 		}
 
