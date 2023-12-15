@@ -2,7 +2,7 @@
 
 preloader::preloader()
 {
-	load()
+	load();
 }
 
 preloader::~preloader()
